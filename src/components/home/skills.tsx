@@ -1,5 +1,5 @@
 import {
-  Aws, Python, Bash, Kubernetes, Docker, Terraform, Jenkins, Gcp, Azure, Linux, Prometheus, Github, Cloud, Code, Database,
+  Aws, Python, Bash, Kubernetes, Jenkins, Gcp, Azure, Linux, Github, Cloud, Code, Database,
 } from '@/components/shared/icons';
 
 const skills = [
@@ -9,11 +9,8 @@ const skills = [
   { name: 'Python', icon: Python, category: 'Languages & Scripting' },
   { name: 'Bash', icon: Bash, category: 'Languages & Scripting' },
   { name: 'Kubernetes', icon: Kubernetes, category: 'Containers & Orchestration' },
-  { name: 'Docker', icon: Docker, category: 'Containers & Orchestration' },
-  { name: 'Terraform', icon: Terraform, category: 'IaC & Automation' },
   { name: 'CI/CD', icon: Github, category: 'IaC & Automation' },
   { name: 'Linux', icon: Linux, category: 'OS & Systems' },
-  { name: 'Monitoring', icon: Prometheus, category: 'OS & Systems' },
 ];
 
 const capabilities = [
